@@ -14,6 +14,8 @@
 		1C7CD8861B0111670077B817 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C7CD8851B0111670077B817 /* Images.xcassets */; };
 		1C7CD8891B0111670077B817 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C7CD8871B0111670077B817 /* LaunchScreen.xib */; };
 		1C7CD8951B0111670077B817 /* AutolayoutTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C7CD8941B0111670077B817 /* AutolayoutTestTests.m */; };
+		1C7CD8A41B0111830077B817 /* MyTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C7CD89F1B0111830077B817 /* MyTableCell.m */; };
+		1C7CD8A51B0111830077B817 /* MyTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C7CD8A11B0111830077B817 /* MyTableVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		1C7CD88E1B0111670077B817 /* AutolayoutTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutolayoutTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C7CD8931B0111670077B817 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1C7CD8941B0111670077B817 /* AutolayoutTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutolayoutTestTests.m; sourceTree = "<group>"; };
+		1C7CD89E1B0111830077B817 /* MyTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableCell.h; sourceTree = "<group>"; };
+		1C7CD89F1B0111830077B817 /* MyTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableCell.m; sourceTree = "<group>"; };
+		1C7CD8A01B0111830077B817 /* MyTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableVC.h; sourceTree = "<group>"; };
+		1C7CD8A11B0111830077B817 /* MyTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +87,10 @@
 		1C7CD8771B0111670077B817 /* AutolayoutTest */ = {
 			isa = PBXGroup;
 			children = (
+				1C7CD89E1B0111830077B817 /* MyTableCell.h */,
+				1C7CD89F1B0111830077B817 /* MyTableCell.m */,
+				1C7CD8A01B0111830077B817 /* MyTableVC.h */,
+				1C7CD8A11B0111830077B817 /* MyTableVC.m */,
 				1C7CD87C1B0111670077B817 /* AppDelegate.h */,
 				1C7CD87D1B0111670077B817 /* AppDelegate.m */,
 				1C7CD87F1B0111670077B817 /* ViewController.h */,
@@ -219,8 +229,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C7CD8A51B0111830077B817 /* MyTableVC.m in Sources */,
 				1C7CD8811B0111670077B817 /* ViewController.m in Sources */,
 				1C7CD87E1B0111670077B817 /* AppDelegate.m in Sources */,
+				1C7CD8A41B0111830077B817 /* MyTableCell.m in Sources */,
 				1C7CD87B1B0111670077B817 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -418,6 +430,7 @@
 				1C7CD89A1B0111670077B817 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1C7CD89B1B0111670077B817 /* Build configuration list for PBXNativeTarget "AutolayoutTestTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +439,7 @@
 				1C7CD89D1B0111670077B817 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
